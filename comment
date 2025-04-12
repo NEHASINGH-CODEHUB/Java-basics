@@ -1,0 +1,15 @@
+// Commenting Code
+
+class Geeks {
+    // Function to print hello
+    public static void main(String args[]) {
+        System.out.println("Hello World");
+    }
+}
+
+class GfG {
+    public static void main(String args[]) {
+        Geeks g = new Geeks(); // This will work if Geeks is accessible
+        // You can also directly call the method if needed
+    }
+}
